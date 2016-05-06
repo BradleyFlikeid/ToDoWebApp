@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNet.Mvc;
 using ToDoWebApp.Models;
-using ToDoConsoleApp.Helpers;
 
 namespace ToDoWebApp.Controllers
 {
@@ -39,7 +38,6 @@ namespace ToDoWebApp.Controllers
             }
 
             ToDos.Add(item);
-            SaveToDoItem(item);
             return CreatedAtRoute("GetTodo", new { controller = "Todo", id = item.Key }, item);
         }
 
