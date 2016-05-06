@@ -38,7 +38,7 @@ namespace ToDoWebApp.Controllers
             }
 
             ToDos.Add(item);
-            SaveTodoItem();
+            return CreatedAtRoute("GetTodo", new { controller = "Todo", id = item.Key }, item);
         }
 
         [HttpPut("{id}")]
