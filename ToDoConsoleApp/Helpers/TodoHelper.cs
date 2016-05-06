@@ -7,8 +7,6 @@ namespace ToDoConsoleApp.Helpers
 {
     public class TodoHelper
     {
-
-
         public static bool SaveTodoItem(ToDo todo)
         {
             bool result = false;
