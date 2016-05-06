@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\src\ToDoWebApp\Models\ToDo.cs">
+    <Compile Include="..\Common\Models\ToDo.cs">
       <Link>Models\ToDo.cs</Link>
     </Compile>
     <Compile Include="Helpers\TodoHelper.cs" />

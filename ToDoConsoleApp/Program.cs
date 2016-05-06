@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Net.Http;
 using System.Threading.Tasks;
-using ToDoWebApp.Models;
+using Common.Models;
 
 namespace ToDoConsoleApp
 {

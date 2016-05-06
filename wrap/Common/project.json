@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net40": {
+      "wrappedProject": "../../Common/Common.csproj",
+      "bin": {
+        "assembly": "../../Common/obj/{configuration}/Common.dll",
+        "pdb": "../../Common/obj/{configuration}/Common.pdb"
+      },
+      "dependencies": {
+        "System.Net.Http": "1.0.0-*"
+      }
+    }
+  }
+}

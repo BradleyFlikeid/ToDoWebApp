@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Common.Models;
+using System;
 using System.Data;
 using System.Data.SqlClient;
-using ToDoWebApp.Models;
 
 namespace ToDoConsoleApp.Helpers
 {

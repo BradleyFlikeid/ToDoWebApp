@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNet.Mvc;
+using Common.Models;
 using ToDoWebApp.Models;
 
 namespace ToDoWebApp.Controllers
