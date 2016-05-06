@@ -1,4 +1,4 @@
-﻿namespace Common.Models
+﻿namespace ToDoWebApp.Models
 {
     public class ToDo
     {
